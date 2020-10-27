@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="todo.css">
+    
+    <title>Todo App</title>
+</head>
+<body>
+    
+    <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0" id="navbar">
+            <a class="navbar-brand m-0" href="#"><img src="images/todo.png" width=80 height=80></a>
+          </nav>
+
+<!-- todo app -->
+          <!-- <div clas>
+            <h3>Add Your Todo List</h3>
+          </div> -->
+          
+              <div class="p-0  bg-custom  main-div text-dark  shadow ">
+                  <!-- <img src="images/todo.png" alt="todo-logo" height="100px" width="100px"> -->
+                  <img src="images/todo-head.png"todo-logo" height="150px" width="300px">
+                  <!-- <span class="display-4 offset-md-2 text-bold text-primary">Todo App</span> -->
+                  <br>
+                  <input class=" bg-custom offset-md-3 ml-5  form-group mb-4 " id="add" type="text" placeholder="add your Todo list" required autofocus>
+                  <button class="btn-outline-primary offset-md-2" onclick="addItem()">Add</button>
+                    <button class="btn-outline-danger" onclick="deletAll()">Delete All</button>
+              <br>
+                  <ul class="list-group bg-dark" id="list">
+
+                  </ul>
+              </div>
+          
+    <script src="assets/jquery/jquery-3.4.1.slim.min.js" ></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/popperjs/popper.min.js"></script>
+    
+    <script src="todo.JS"></script>
+    <script src="app.JS"></script>
+</body>
+</html>
